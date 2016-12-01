@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal/100%/1.3 "Denk One", sans-serif;
+  font: normal 100%/1.3 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -39,6 +39,7 @@ figcaption {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -78,6 +79,10 @@ figcaption {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  figcaption {
+    width: 33.3333%;
   }
 
 }
